@@ -11,7 +11,6 @@ const jsonParser = bodyParser.json();
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 let rooms = [];
-
 app.use("/", express.static("public"));
 
 app.post("/api/join", jsonParser, (req, res) => {
