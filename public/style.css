@@ -1,3 +1,16 @@
+body {
+  background-color: rgb(33, 37, 41);
+}
+
 canvas {
-    border-radius: 5px;
+  border-radius: 5px;
+}
+
+#join-room {
+  display: block;
+  position: fixed;
+  left: 50%;
+  /* top: .5em; */
+  transform: translate(-50%, 1em);
+  border: 2px solid white;
 }
